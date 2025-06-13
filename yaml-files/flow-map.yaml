@@ -1,0 +1,3 @@
+---
+# flow : inline (json like)
+microservices: [app: user_auth, port: 5000, deployed: true]

@@ -1,0 +1,7 @@
+---
+# single line comment
+# multi
+# line
+# comment
+ports:  # defining ports
+  - 5000:5000  # port number

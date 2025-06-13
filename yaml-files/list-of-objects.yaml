@@ -1,0 +1,22 @@
+---
+# list / array of objects
+microservices:
+ - app: user-auth
+   port: 5000
+   version: 1.0
+   deployed: yes
+ - app: frontend
+   port: 3000
+   version: 2.1
+   deployed: yes
+ - app: backend
+   port: 8080
+   versions:
+    - 1.9
+    - 2.0
+    - 2.1
+   deployed: no
+ - app: database
+   port: 4000
+   versions: ["1.0", 1.2, 1.3]
+   deployed: yes

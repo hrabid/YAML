@@ -1,0 +1,10 @@
+---
+# Disctionary/ Map
+Python:
+  funtional: false
+  object-oriented: true
+  suitable-for-scripting: false
+Bash:
+  funtional: true
+  object-oriented: false
+  suitable-for-scripting: true

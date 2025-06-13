@@ -1,0 +1,7 @@
+# List / Array
+---
+apps:
+  - user-auth
+  - frontend
+  - backend
+  - database
