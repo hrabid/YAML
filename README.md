@@ -9,15 +9,15 @@ YAML is a human-readable [[Data Serialization Language]].
 ***Extension***: YAML use .yaml & .yml extension. Both are correct.
 
 ## Syntax Essentials 
-###### Indentation 
+### Indentation 
 - Python style indentation defines structure.
 - Space only (tabs are forbidden)
-###### Comments 
+### Comments 
 - Comments starts with a hash sign(#)
 - Ends with the ending of line 
 - Comments can be anywhere in the yaml file
 
-###### Sequences & Inline List 
+### Sequences & Inline List 
 ***Block:***
 ```yaml
 microservices:
@@ -31,7 +31,7 @@ microservices:
 microservices: [frontend,dashboard,shopping_cart,user_auth]
 
 ```
-###### Mappings & Inline Maps:
+### Mappings & Inline Maps:
 ***Block:***
 ```yaml
 microservices:
@@ -45,7 +45,7 @@ microservices:
 microservices: [app: frontend, port: 3000, version: 1.25 ]
 ```
 
-###### Scalars & Types 
+### Scalars & Types 
 ```yaml
 count: 100 # integer 
 pi: 3.14 # floating point 
@@ -54,14 +54,14 @@ flag: true # boolean
 empty: null # null value 
 ```
 
-###### Strings 
+### Strings 
 Quotation is not necessary in yaml but any of the quotes ("" & '') is valid.
 ```yaml
 name: Mustasim Billah
 ```
 - If there have any special character then Quotes are needed 
 
-###### Multi-line Strings 
+### Multi-line Strings 
 ***Literal Block:*** ( | preserves new line)
 ```yaml
 yaml: |
@@ -77,7 +77,7 @@ yaml: >
   Markup Language
 ```
 
-###### Multiple Docs 
+### Multiple Docs 
 ```yaml
 name: app1
 version: 1.0
@@ -86,10 +86,10 @@ name: app2
 version: 2.0
 ```
 
-###### Anchor / Aliases 
+### Anchor / Aliases 
 
 
-###### Explicit Tags & Typing
+### Explicit Tags & Typing
 ```yaml
 str_int: !!str 145 
 int_str: !!int "15667"
